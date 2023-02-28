@@ -45,3 +45,24 @@ img {
   margin: 10px;
   border: 2px solid white;
 }
+
+/* For screens with a maximum width of 768px */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .image-container {
+    padding: 10px;
+  }
+  img {
+    margin: 5px;
+    border: 1px solid white;
+  }
+}
+
+/* For screens with a maximum width of 576px */
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+}
